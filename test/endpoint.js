@@ -89,10 +89,10 @@ describe('Endpoint', function () {
       }, 'endpoint to record', waitTime, done);
     });
 
-    it('should fill in a string reponse with the recorded endpoint in series', function (done) {
+    it('should fill in a string response with the recorded endpoint in series', function (done) {
       const waitTime = 10000;
       this.timeout(waitTime);
-      this.data.response = ['http://google.com', 'http://example.com'];
+      this.data.response = ['http://google.com', 'https://www.google.com'];
 
       const actual = new Endpoint(this.data);
 
@@ -101,7 +101,7 @@ describe('Endpoint', function () {
       }, 'endpoint to record', waitTime, done);
     });
 
-    it('should fill in a string reponse with the recorded endpoint in series', function (done) {
+    it('should fill in a string response with the recorded endpoint in series with only one response', function (done) {
       const waitTime = 10000;
       this.timeout(waitTime);
       const data = {
