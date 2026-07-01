@@ -1,9 +1,9 @@
 {
   "name": "stubby",
-  "version": "5.1.0",
+  "version": "5.1.1",
   "author": {
     "name": "Eric Mrak",
-    "email": "mail@ericmrak.info"
+    "email": "eric@mrak.online"
   },
   "bugs": {
     "url": "https://github.com/mrak/stubby4node"
